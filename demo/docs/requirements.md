@@ -24,6 +24,14 @@
 재고가 소진되면 관리자에게 알림이 간다.
 
 
+com.shop.demo/
+├── constant/      <-- 공통으로 쓰이는 상수나 Enum (예: Role)
+├── entity/        <-- DB 테이블과 매핑되는 클래스 (예: Member)
+├── repository/    <-- DB에 접근하는 인터페이스 (JPA Repository)
+├── service/       <-- 핵심 비즈니스 로직
+├── controller/    <-- 클라이언트의 요청(URL)을 받는 곳
+└── dto/           <-- 데이터를 주고받을 때 사용하는 객체
+
 ### [회원 관리 요구사항]
 1. 회원가입
    - 이메일(ID), 비밀번호, 이름, 주소를 입력받는다.
