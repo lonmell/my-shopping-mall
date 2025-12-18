@@ -11,6 +11,6 @@ public class ItemController {
     public String itemForm(Model model) {
         // "상품 등록 페이지입니다"라는 메시지를 화면에 전달
         model.addAttribute("message", "상품 등록 페이지입니다.");
-        return "item/itemForm"; // templates/item/itemForm.html 파일을 찾으라는 뜻
+        return "item/new/itemForm"; // templates/item/itemForm.html 파일을 찾으라는 뜻
     }
 }
